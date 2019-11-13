@@ -1,0 +1,70 @@
+.tile{
+	position:relative;
+	background: rgb(79, 71, 69);
+	margin-top:12px;
+	overflow:hidden;
+	color: white;
+	box-shadow: 2px 2px 20px #222222;
+}
+
+.tile-header{
+	padding:12px;
+}
+
+.tile .title{
+	font-weight: 700;
+}
+
+
+
+.tile-footer{
+	padding:12px;
+	width:100%;
+	background:rgba(0,0,0,0.2);
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.tile-footer .label{
+	background: rgba(255, 141, 0, 0.72)
+}
+
+.tile > div {
+	width:100%;
+	text-align: center;
+	display: table;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease
+}
+
+
+.tile > div > p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.slideTextUp > div:nth-child(2) {
+	position:absolute;
+	top: 100%;
+	height:100%;
+	padding: 0 1em;
+}
+
+/*
+.slideTextUp:hover > div {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%)
+}*/
+
+.moveUp > div{
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%)
+}
+
+
+

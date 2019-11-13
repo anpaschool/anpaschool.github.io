@@ -1,0 +1,158 @@
+html, body{
+	height: 100%;
+	min-height: 100%;
+}
+
+body{
+	position:relative;
+	padding-top: 50px;
+}
+
+
+.border-radius(@radius){
+    .border-top-radius(@radius);
+    .border-right-radius(@radius);
+    .border-bottom-radius(@radius);
+    .border-left-radius(@radius);
+}
+
+.wrapper {
+   border-radius: 5px;
+}
+
+.container-table {
+    display: table;
+	width:100%;
+	min-height:100%;
+	table-layout: fixed;
+}
+.valign {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+	width:100%;
+}
+
+.effect1{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%; 
+  background-image:url('../img/effect.png');
+}
+
+.effect2{
+  z-index:0;
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background-image:url('../img/slide1_texture.jpg');
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  opacity:0.5;
+}
+
+.effect3{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background-image:url('../img/effect3.png')
+}
+
+#landingPage{
+	background-image:url('../img/xcodes.jpg');
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	width:100%;
+	text-align:center;
+	color: white;
+	height:5vh;
+	min-height:100%;
+}
+
+#landingPage h1{
+	font-size: 4em;
+	font-color:red;
+}
+
+#aboutUs{
+	position:relative;
+	background-image:url('../img/aboutMe_bg.jpg');
+	width:100%;
+	padding: 50px;
+	padding-bottom:100px;
+}
+
+#aboutUs h2{
+	color: black;
+} 
+
+#academics{
+	position:relative;
+	background-image:url('../img/slide2_bg.jpg');
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	width:100%;
+	text-align:center;
+}
+
+#academics h1{
+	color:white;
+}
+
+#academics h1 i{
+    -ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30eg); /* Chrome, Safari, Opera */
+    transform: rotate(-30deg);
+	margin-right:-10px;
+	font-size:40px;
+}
+
+#academics ul{
+	padding: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+#trainingSyllabus{
+	position:relative;
+	background-image:url('../img/slide3_bg.jpg');
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	width:100%;
+	text-align:center;
+}
+
+#futureProjects{
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+
+#futureProjects h1{
+	color:black;
+}
+
+#extraCurriculars{
+	background-image:url('../img/extra.png');	
+	text-align: center;
+	padding:50px;
+}
+
+#extraCurriculars .page-header{
+	border-bottom: 1px solid gray;
+}
+#extraCurriculars h2, ul{
+	text-align:justify !important;
+}
+
+.text-center{
+	text-align:center !important;
+}
